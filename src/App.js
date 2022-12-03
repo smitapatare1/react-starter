@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import product1 from "./product1.js"
-import product2 from "./product2.js"
-
+import Home from "./views/Home/Home"
+import About from "./views/About/About"
 
 function App() {
   return (
     <>
-      <product1/>
-      <product2/>
+        <Home/>
+        <About/>
     </>
-  )
+  );
 }
-
 export default App;
